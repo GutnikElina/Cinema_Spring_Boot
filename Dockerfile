@@ -11,4 +11,4 @@ WORKDIR /app
 COPY --from=build /app/target/*.jar /app/cinema-api.jar
 
 EXPOSE 8080
-CMD ["java", "-jar", "/app/cinema-api.jar"]
+CMD ["java", "-Dfile.encoding=UTF-8", "-jar", "/app/cinema-api.jar"]

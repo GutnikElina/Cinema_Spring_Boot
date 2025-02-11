@@ -54,3 +54,6 @@ security:
     signing:
       key: DJCEJHUGHUDGCHJW632JHEFJHERJ3267JHJHJH732HJCEWD
     expiration: 3600000
+
+flyway:
+  encoding: UTF-8
